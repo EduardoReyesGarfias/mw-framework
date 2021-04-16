@@ -3,18 +3,68 @@
 <head>
 	<title>Main</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<meta charset="UTF-8">
 </head>
 <body>
 
 	<div class="container center-x">
+		
+		<h2 class="mt">Headers</h2>
+		<div class="card-container">
+			<h1>Encabezado 1</h1>
+			<h2>Encabezado 2</h2>
+			<h3>Encabezado 3</h3>
+			<h4>Encabezado 4</h4>
+			<h5>Encabezado 5</h5>
+			<h6>Encabezado 6</h6>
+		</div>
+	
+		<h2 class="mt">Colores</h2>
+		<div class="card-container my">
+			<div class="grid-container col-6 med-col-3 sm-col-2">
+				<span class="text-color__rojo">Texto rojo</span>
+				<span class="text-color__rosa">Texto rosa</span>
+				<span class="text-color__morado">Texto morado</span>
+				<span class="text-color__indigo">Texto indigo</span>
+				<span class="text-color__azul">Texto azul</span>
+				<span class="text-color__azul-ligero">Texto azul ligero</span>
+				<span class="text-color__cyan">Texto cyan</span>
+				<span class="text-color__teal">Texto teal</span>
+				<span class="text-color__verde">Texto verde</span>
+				<span class="text-color__verde-ligero">Texto verde-ligero</span>
+				<span class="text-color__lime">Texto lime</span>
+				<span class="text-color__amarillo">Texto amarillo</span>
+				<span class="text-color__amber">Texto amber</span>
+				<span class="text-color__naranja">Texto naranja</span>
+				<span class="text-color__gris">Texto gris</span>
+				<span class="text-color__gris-azul">Texto gris-azul</span>
+			</div>
+		</div>
 
-		<h1>Encabezado 1</h1>
-		<h2>Encabezado 2</h2>
-		<h3>Encabezado 3</h3>
-		<h4>Encabezado 4</h4>
-		<h5>Encabezado 5</h5>
-		<h6>Encabezado 6</h6>
-
+		<h2 class="mt">Grid</h2>
+		<div class="grid-container col-12 med-col-2 sm-col-1 text-center">
+			<div class="card-container">1</div>
+			<div class="card-container">2</div>
+			<div class="card-container">3</div>
+			<div class="card-container">4</div>
+			<div class="card-container">5</div>
+			<div class="card-container">6</div>
+			<div class="card-container">7</div>
+			<div class="card-container">8</div>
+			<div class="card-container">9</div>
+			<div class="card-container">10</div>
+			<div class="card-container">11</div>
+			<div class="card-container">12</div>
+			<div class="card-container col-span-2 col-med-span-2 col-sm-span-1">1</div>
+			<div class="card-container col-span-2 col-med-span-2 col-sm-span-1">2</div>
+			<div class="card-container col-span-2 col-med-span-2 col-sm-span-1">3</div>
+			<div class="card-container col-span-2 col-med-span-2 col-sm-span-1">4</div>
+			<div class="card-container col-span-2 col-med-span-2 col-sm-span-1">5</div>
+			<div class="card-container col-span-2 col-med-span-2 col-sm-span-1">6</div>			
+		</div>
+		
+		<h2 class="mt">Cards</h2>
 		<div class="grid-container col-3 med-col-2 sm-col-1">
 			<div class="card-container">Card 1</div>
 			<div class="card-container">Card 2</div>
@@ -23,6 +73,8 @@
 			<div class="card-container">Card 5</div>
 			<div class="card-container">Card 6</div>
 		</div>
+
+		<h2 class="mt">Cards + Grid</h2>
 
 		<div class="grid-container col-3 med-col-1 sm-col-1">
 			<div class="card-container col-span-2 col-med-span-1">
@@ -55,8 +107,29 @@
 			</div>
 			
 		</div>
+
+		<h2 class="mt">Web Components</h2>
+		<h3>Tooltip / Poopup Notify</h3>
+		
+		<div class="card-container">
 			
+			<p class="relative">
+				Lorem ipsum dolor sit amet 
+				<popup-notify background="#000000" color="#ffffff">
+					<span slot="message">Este contenido es el que se ve en el tooltip</span>	
+				</popup-notify> 
+				, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+
+		</div>
+
 	</div>
 
+	<script type="text/javascript" src="js/web-components.js"></script>
 </body>
 </html>

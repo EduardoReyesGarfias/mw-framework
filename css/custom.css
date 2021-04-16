@@ -1,0 +1,148 @@
+/* -------------------------------------
+----------------------------------------
+            * Fonts *
+----------------------------------------
+--------------------------------------*/
+
+/*              * Texto *          */
+
+.text-color__rojo{
+    color:var(--rojo);
+}
+
+.text-color__rosa{
+    color:var(--rosa);
+}
+
+.text-color__morado{
+    color:var(--morado);
+}
+
+.text-color__indigo{
+    color:var(--indigo);
+}
+
+.text-color__azul{
+    color:var(--azul);
+}
+
+.text-color__azul-ligero{
+    color:var(--azul-ligero);
+}
+
+.text-color__cyan{
+    color:var(--cyan);
+}
+
+.text-color__teal{
+    color:var(--teal);
+}
+
+.text-color__verde{
+    color:var(--verde);
+}
+
+.text-color__verde-ligero{
+    color:var(--verde-ligero);
+}
+
+.text-color__lime{
+    color:var(--lime);
+}
+
+.text-color__amarillo{
+    color:var(--amarillo);
+}
+
+.text-color__amber{
+    color:var(--amber);
+}
+
+.text-color__naranja{
+    color:var(--naranja);
+}
+
+.text-color__gris{
+    color:var(--gris);
+}
+
+.text-color__gris-azul{
+    color:var(--gris-azul);
+}
+
+/* -------------------------------------
+----------------------------------------
+            * FORMULARIOS *
+----------------------------------------
+--------------------------------------*/
+
+/*              * Botones *          */
+.btn--verde{
+    background-color:var(--verde);
+  }
+  
+.btn--rosa{
+    background-color:var(--rosa);
+}
+
+.btn--morado{
+    background-color:var(--morado);
+}
+
+.btn--rojo{
+    background-color:var(--rojo);
+}
+
+.btn--indigo{
+    background-color:var(--indigo);
+}
+
+.btn--azul{
+    background-color:var(--azul);
+}
+
+.btn--azul-ligero{
+    background-color:var(--azul-ligero);
+}
+
+.btn--cyan{
+    background-color:var(--cyan);
+}
+
+.btn--teal{
+    background-color:var(--teal);
+}
+
+.btn--verde-ligero{
+    background-color:var(--verde-ligero);
+}
+
+.btn--lime{
+    background-color:var(--lime);
+}
+
+.btn--amarillo{
+    background-color:var(--amarillo);
+}
+
+.btn--amber{
+    background-color:var(--amber);
+}
+
+.btn--naranja{
+    background-color:var(--naranja);
+}
+
+.btn--gris{
+    background-color:var(--gris);
+}
+
+.btn--gris-azul{
+    background-color:var(--gris-azul);
+}
+
+.btn--megro{
+    background-color:var(--negro);
+}
+
+

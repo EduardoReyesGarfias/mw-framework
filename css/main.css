@@ -24,11 +24,29 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 :root{
 
-  --bg: #e2e2e2;
+  --bg: #f2f2f2;
   --container: white;
   --radius:3px;
   --font:'Open Sans', sans-serif;
 
+  /* colores */
+  --rojo: #f44336;
+  --rosa : #e91e63;
+  --morado: #9c27b0;
+  --indigo: #3f51b5;
+  --azul: #2196f3;
+  --azul-ligero: #03a9f4;
+  --cyan: #00bcd4;
+  --teal: #009688;
+  --verde: #4caf50;
+  --verde-ligero: #8bc34a;
+  --lime: #cddc39;
+  --amarillo: #ffeb3b;
+  --amber: #ffc107;
+  --naranja: #ff9800;
+  --gris: #9e9e9e;
+  --gris-azul: #607d8b;
+  --negro: #000;
 }
 
 /* -------------------------------------
@@ -229,14 +247,6 @@ p{
   color:white;
 }
 
-.btn--verde{
-  background-color: #144361;
-}
-
-.btn--rojo{
-  background-color: #d91919;
-}
-
 /* -------------------------------------
 ----------------------------------------
             * HELPERS *
@@ -262,4 +272,22 @@ p{
 
 .text-justify{
   text-align: justify;
+}
+
+
+.my{
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+.mb{
+  margin-bottom:1em
+}
+
+.mt{
+  margin-top:1em
+}
+
+.relative{
+  position:relative;
 }
